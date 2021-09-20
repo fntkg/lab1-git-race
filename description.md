@@ -87,12 +87,11 @@ The file `src/test/kotlin/IntegrationTest.kt` contains two tests that checks the
 
 This ensures the webpage has a valid CSS file.
 
-
 ### How to deploy the app with Heroku
 
-> In order to deploy the app, you will need git and heroku installed in your machine.
+> In order to deploy the app, you will need `git` and `heroku` CLI installed in your machine.
 
-Detailed instructions can be found [here](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote)
+Detailed instructions can be found [here](https://devcenter.heroku.com/articles/git#creating-a-heroku-remote).
 
 ---
 
@@ -104,9 +103,9 @@ Creating app... done, ⬢ thawing-inlet-61413
 https://thawing-inlet-61413.herokuapp.com/ | https://git.heroku.com/thawing-inlet-61413.git
 ```
 
-Save the url, it will be needed
+Save the url, it will be needed.
 
-Now, add a remote to your local repository with the heroku git:remote command. All you need is your Heroku app’s name:
+Now, add a remote to your local repository with the `heroku git:remote` CLI command. All you need is your Heroku app's name:
 
 ```bash
 $ heroku git:remote -a thawing-inlet-61413
@@ -116,7 +115,7 @@ set git remote heroku to https://git.heroku.com/thawing-inlet-61413.git
 Deploy the code!
 
 ```bash
-$ git push heroku master
+git push heroku master
 ```
 
-Do not be afraid of detaching the `push` command, it won`t cancel the build and the app will be deployed anyways
+Do not be afraid of detaching the `push` command, it won't cancel the build and the app will be deployed anyways.
