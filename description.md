@@ -87,7 +87,7 @@ The file `src/test/kotlin/IntegrationTest.kt` contains two tests that checks the
 
 This ensures the webpage has a valid CSS file.
 
-### How to deploy the app with Heroku
+## How to deploy the app with Heroku
 
 > In order to deploy the app, you will need `git` and `heroku` CLI installed in your machine.
 
